@@ -1,1 +1,38 @@
 /* CSS for Episode 32 */
+h1 {color:rgb(205, 50, 190);
+   
+}
+body {color: rgb(109, 108, 108);
+    background-color:rgb(209, 198, 216);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p.citation {
+    text-align: center;
+    margin: auto;
+    font-style: italic;
+    color:brown;
+  }
+ 
+  a {
+    color:rgb(30, 129, 21);
+  
+  }
+p.center {
+   text-align: center;
+    margin: 100 auto;
+}
+a:link {
+    color: red;}
+
+    a:visited {
+        color: green;
+      }
+      a:hover {
+
+  color: hotpink;
+}
+a:active {
+    color: blue;
+  }

@@ -328,7 +328,17 @@ Félicitations, jeune dresseur ! Tu as traversé les Plaines CSS et es prêt à 
           display: block;
           width: 100%;
       }
-      .responsive-table td::before {
+      .responsive-table td::before {table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
           content: attr(data-label);
           float: left;
           font-weight: bold;

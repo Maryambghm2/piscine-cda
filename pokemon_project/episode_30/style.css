@@ -1,1 +1,55 @@
 /* CSS for Episode 30 */
+h1 {color:rgb(205, 50, 190);
+}
+body {color: grey;
+    background-color:rgb(229, 223, 233);
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-right: 90px;
+    margin-left: 30px;
+   
+    border-style: dotted;
+}
+main {color: grey;
+
+    background-color:rgb(229, 223, 233);
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-right: 90px;
+    margin-left: 50px;
+    border-style: dotted;
+}
+a {
+    color:rgb(117, 152, 152);
+}
+
+article {
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-right: 90px;
+    margin-left: 50px;
+
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+
+    background-color: lightgrey;
+   
+}
+p.citation {
+    font-style: italic;
+    color:brown;
+  }
+  #subtitle{
+    border-style: double;
+    margin-right: 100px;
+  }
