@@ -1,1 +1,11 @@
 /* CSS for Episode 48 */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    height: 500px;
+    width: 200px;
+    background-color: lightgrey;
+}
