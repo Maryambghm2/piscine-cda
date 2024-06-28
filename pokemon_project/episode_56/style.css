@@ -1,1 +1,15 @@
 /* CSS for Episode 56 */
+:root{
+    background-color: rgb(223, 154, 147);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+.search-container {
+    max-width: 300px;
+    margin: auto;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}

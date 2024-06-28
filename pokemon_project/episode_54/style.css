@@ -1,4 +1,12 @@
 /* CSS for Episode 54 */
+:root{
+background-color: rgb(223, 154, 147);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1{
+   color: rgb(8, 156, 156);
+}
 .slideshow-container {
     max-width: 1000px;
     position: relative;
