@@ -11,13 +11,10 @@
             <h1>Typing Effect</h1>
         </div>
         <button onclick="typeWriter()">Click here</button>
-        <p id="demo" class="colored-text" class="span"></p>
+        <p id="demo" class="colored-text"></p>
         <script>
             var i = 0;
-            var span = document.createElement('span');
-            span.innerHTML = "fatal";
-            span.style.color = "#FF0000";
-            var txt = '"Success is not final, failure is not ' + span +  ': It is the courage to continue that counts." - Winston Churchill';
+            var txt = '"Success is not final, failure is not fatal, It is the courage to continue that counts." - Winston Churchill';
             var speed = 50;
             function typeWriter() { 
               if (i < txt.length) {
